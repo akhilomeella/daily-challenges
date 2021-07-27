@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, san-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav{
+display:flex;
+align-items: center;
+justify-content: flex-end;
+margin-right: 30px;
+margin-top: 14px;
+}
+
+nav a{
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 400;
+    padding:5px 6.7px;
+    color:#000;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.logo {
+  position: absolute;
+  top: 14%;
+  left: 39%;
+}
+
+.text-box {
+  position: absolute;
+  top: 43%;
+  left: 30%;
+}
+
+.box {
+  width: 570px;
+  height: 45px;
+  border:1px solid black;
+  border-radius: 30px;
+  opacity: 0.1;
+  
+}
+
+.box:hover {
+  opacity: 0.2;
+  box-shadow: 1px 1px 1px #bbb9b9,
+  2px 2px 2px #bbb9b9;
+  
+}
+
+.button {
+  margin: 370px auto 0;
+  margin-left: 576px;
+  font-size: 14px;
+}
+
+.button a {
+  text-decoration:  none;
+  display: inline-block;
+  margin:0 5px;
+  padding:9px 12px 9px 12px;
+   color:rgb(65, 63, 63);
+   border: 1px solid grey; 
+   background-color: #f2f2f2;
+   border-color: white;
+}
+
+.button a:hover{
+    box-shadow: 1px 1px 1px #bbb9b9;
+    border:1px solid rgba(0,0,0, 0.54);
+    border-radius: 4px;
+    border-color: #bbb9b9;
+}
+
+.span{
+    font-size: 13px;
+    color:rgb(65, 63, 63);
+}
+
+.link{
+    margin: 30px auto 0;
+    margin-left: 530px;
+}
+
+.link a{
+    text-decoration: none;
+    color:rgb(4, 4, 156);
+    font-size: 14px;
+}
+
+.link a:hover{
+text-decoration:underline;
+}
+
+footer{
+    background: #f2f2f2;
+    margin-top: 234px;
+    
+
+}
+
+footer h4{
+    color:rgba(0,0,0, 0.54);
+    font-size: 15px;
+    line-height: 39.5px;
+    font-weight: 400;
+    padding-left:23px;
+    border:1px solid #eee;
+}
+
+footer a{
+    color:#5f6368;
+    display:inline-block;
+    padding:12px 11.3px;
+    font-size: 14px;
+    
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.links{
+border-top:1px solid #ddd;
+display:flex;
+}
+
+.link-1{
+    padding-left: 18.7px;
+    display: inline-flex;
+}
+
+.link-2{
+    padding-left: 810px;
+    display: flex;
+}
+
+
+
+
+
+
+    
+
+
